@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Signature Pad</title>
+        <link rel="stylesheet" href="signature-style.css">
+    </head>
+    <body>
+        <!-- Cointainer for signature pad -->
+        <section class="signature-component">
+            <h1>Draw Signature</h1>
+            <h2>with mouse or touch</h2>
+
+            <canvas id="signature-pad" width="400" height="200"></canvas>
+        
+            <div>
+                <button id="save">Save</button>
+                <button id="clear">Clear</button>
+                <button id="showPointsToggle">Show Points?</button>
+            </div>
+        </section>
+
+        <!-- External Scripts -->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/underscore.js/1.8.3/underscore-min.js"></script>
+        <script src="script.js"></script>
+    </body>
+</html>
